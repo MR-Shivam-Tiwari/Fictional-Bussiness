@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+   /* CSS for Services page */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  background-color: #9fd9fa;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service {
+  width: 45%;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.service:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.service:nth-child(1) {
+  background-color: #ffcccc;
+}
+
+.service:nth-child(2) {
+  background-color: #ffebcc;
+}
+
+.service:nth-child(3) {
+  background-color: #c3e6cb;
+}
+
+.service:nth-child(4) {
+  background-color: #d6d8d9;
+}
+
+.service h2 {
+  margin-top: 0;
+}
+
+.service img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.service p {
+  margin: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Services section */
+  .services {
+    flex-direction: column;
+  }
+
+  .service {
+    width: 100%;
+  }
+  
+  /* Hero section */
+  .hero {
+    padding: 50px 20px;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Fictional.html">Home</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Our Services</h1>
+      </section>
+      <section class="services">
+        <div class="service">
+          <h2>Web Development</h2>
+          <p>
+            Our web development services include everything from website design
+            and development to website maintenance and support. We use the
+            latest technologies and industry best practices to ensure that your
+            website is fast, secure, and user-friendly.
+          </p>
+        </div>
+        <div class="service">
+          <h2>App Development</h2>
+          Looking for a reliable app development service? Our team of
+          experienced developers specializes in creating custom, user-friendly
+          mobile applications that are tailored to meet the unique needs of your
+          business. Whether you need a simple app for your small business or a
+          complex enterprise-level application, we have the expertise to
+          deliver.
+        </div>
+        <div class="service">
+          <h2>Game Development</h2>
+          Want to develop an engaging and entertaining game for your business or
+          personal use? Our team of experienced game developers can bring your
+          vision to life with cutting-edge graphics and engaging gameplay. From
+          mobile games to PC and console games, we have the expertise to create
+          games that are sure to impress.
+        </div>
+        <div class="service">
+          <h2>APi Development</h2>
+          Need to integrate your software or application with third-party
+          services or platforms? Our API development services can help you build
+          secure and scalable APIs that can communicate with any system or
+          platform. Our experienced developers use the latest technologies and
+          industry best practices to create APIs that are easy to use, reliable,
+          and secure.
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Business Name. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
